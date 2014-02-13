@@ -14,13 +14,13 @@ Setting Up Your VHOST
 The following is a sample VHOST you might want to consider for your project.
 
 <VirtualHost *:80>
-   DocumentRoot "D:/wamp/www/zfTest/public"
+   DocumentRoot "D:/wamp/www/zf2/zf/public"
    ServerName .local
 
    # This should be omitted in the production environment
    SetEnv APPLICATION_ENV development
 
-   <Directory "D:/wamp/www/zfTest/public">
+   <Directory "D:/wamp/www/zf2/zf/public">
        Options Indexes MultiViews FollowSymLinks
        AllowOverride All
        Order allow,deny
